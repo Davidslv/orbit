@@ -1,0 +1,16 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  amount_cents: 10000
+  currency: GBP
+  status: pending
+  due_date: 2026-03-17
+  user_id: 1
+
+two:
+  amount_cents: 25000
+  currency: GBP
+  status: paid
+  due_date: 2026-03-17
+  paid_at: 2026-03-17 18:13:56
+  user_id: 1

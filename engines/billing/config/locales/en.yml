@@ -1,0 +1,25 @@
+en:
+  billing:
+    invoices:
+      index:
+        title: "Invoices"
+      show:
+        title: "Invoice Details"
+      statuses:
+        pending: "Pending"
+        paid: "Paid"
+        overdue: "Overdue"
+        cancelled: "Cancelled"
+    subscriptions:
+      index:
+        title: "Subscriptions"
+      show:
+        title: "Subscription Details"
+      statuses:
+        active: "Active"
+        cancelled: "Cancelled"
+        past_due: "Past Due"
+    plans:
+      intervals:
+        monthly: "Monthly"
+        yearly: "Yearly"

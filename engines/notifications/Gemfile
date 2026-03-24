@@ -1,0 +1,15 @@
+source "https://rubygems.org"
+
+# Specify your gem's dependencies in notifications.gemspec.
+gemspec
+
+gem "puma"
+
+gem "pg"
+
+gem "propshaft"
+
+gem "rspec-rails", group: [:development, :test]
+
+# Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
+gem "rubocop-rails-omakase", require: false

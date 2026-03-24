@@ -1,0 +1,14 @@
+en:
+  notifications:
+    notifications:
+      index:
+        title: "Notifications"
+        mark_all_read: "Mark all as read"
+        no_notifications: "No notifications yet."
+      show:
+        title: "Notification"
+        mark_as_read: "Mark as read"
+        back: "Back to notifications"
+    statuses:
+      read: "Read"
+      unread: "Unread"

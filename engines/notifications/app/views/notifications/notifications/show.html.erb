@@ -1,0 +1,17 @@
+<h1><%= @notification.subject %></h1>
+
+<p><%= @notification.body %></p>
+
+<dl>
+  <dt>Received</dt>
+  <dd><%= @notification.created_at.strftime("%d %b %Y %H:%M") %></dd>
+
+  <dt>Read</dt>
+  <dd><%= @notification.read? ? @notification.read_at.strftime("%d %b %Y %H:%M") : "Unread" %></dd>
+</dl>
+
+<% unless @notification.read? %>
+  <%= link_to "Mark as read", read_notification_path(@notification), data: { turbo_method: :patch } %>
+<% end %>
+
+<%= link_to "Back to notifications", notifications_path %>

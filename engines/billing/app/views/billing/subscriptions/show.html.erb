@@ -1,0 +1,20 @@
+<h1>Subscription #<%= @subscription.id %></h1>
+
+<dl>
+  <dt>User</dt>
+  <dd><%= @subscription.user_id %></dd>
+
+  <dt>Plan</dt>
+  <dd><%= @subscription.plan.name %> (<%= @subscription.plan.price_cents / 100.0 %>/<%= @subscription.plan.interval %>)</dd>
+
+  <dt>Status</dt>
+  <dd><%= @subscription.status %></dd>
+
+  <dt>Started</dt>
+  <dd><%= @subscription.started_at %></dd>
+
+  <dt>Cancelled</dt>
+  <dd><%= @subscription.cancelled_at || "Active" %></dd>
+</dl>
+
+<%= link_to "Back to subscriptions", subscriptions_path %>

@@ -1,0 +1,20 @@
+<h1>Invoice #<%= @invoice.id %></h1>
+
+<dl>
+  <dt>User</dt>
+  <dd><%= @invoice.user_id %></dd>
+
+  <dt>Amount</dt>
+  <dd><%= @invoice.amount_cents / 100.0 %> <%= @invoice.currency %></dd>
+
+  <dt>Status</dt>
+  <dd><%= @invoice.status %></dd>
+
+  <dt>Due Date</dt>
+  <dd><%= @invoice.due_date %></dd>
+
+  <dt>Paid At</dt>
+  <dd><%= @invoice.paid_at || "Not yet paid" %></dd>
+</dl>
+
+<%= link_to "Back to invoices", invoices_path %>

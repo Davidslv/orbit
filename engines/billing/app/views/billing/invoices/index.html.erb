@@ -1,0 +1,28 @@
+<h1>Invoices</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>User</th>
+      <th>Amount</th>
+      <th>Currency</th>
+      <th>Status</th>
+      <th>Due Date</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @invoices.each do |invoice| %>
+      <tr>
+        <td><%= invoice.id %></td>
+        <td><%= invoice.user_id %></td>
+        <td><%= invoice.amount_cents / 100.0 %></td>
+        <td><%= invoice.currency %></td>
+        <td><%= invoice.status %></td>
+        <td><%= invoice.due_date %></td>
+        <td><%= link_to "View", invoice %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

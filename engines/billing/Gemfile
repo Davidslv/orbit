@@ -1,0 +1,17 @@
+source "https://rubygems.org"
+
+# Specify your gem's dependencies in billing.gemspec.
+gemspec
+
+gem "core", path: "../core"
+
+gem "puma"
+
+gem "pg"
+
+gem "propshaft"
+
+gem "rspec-rails", group: [:development, :test]
+
+# Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
+gem "rubocop-rails-omakase", require: false

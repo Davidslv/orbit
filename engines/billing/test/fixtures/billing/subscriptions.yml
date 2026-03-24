@@ -1,0 +1,14 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  plan: one
+  status: active
+  user_id: 1
+  started_at: 2026-03-17 18:13:55
+
+two:
+  plan: two
+  status: cancelled
+  user_id: 1
+  started_at: 2026-03-17 18:13:55
+  cancelled_at: 2026-03-17 18:13:55

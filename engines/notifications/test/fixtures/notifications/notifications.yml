@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  recipient_type: User
+  recipient_id: 1
+  subject: Invoice Created
+  body: Your invoice #1001 for 100.00 GBP has been created.
+  read_at:
+
+two:
+  recipient_type: User
+  recipient_id: 1
+  subject: Payment Received
+  body: Your payment for invoice #1001 has been received. Thank you!
+  read_at: 2026-03-17 18:15:21

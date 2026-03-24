@@ -1,0 +1,19 @@
+<h1>Notifications</h1>
+
+<%= link_to "Mark all as read", read_all_notifications_path, data: { turbo_method: :patch } %>
+
+<% if @notifications.any? %>
+  <ul>
+    <% @notifications.each do |notification| %>
+      <li class="<%= notification.read? ? 'read' : 'unread' %>">
+        <strong><%= link_to notification.subject, notification %></strong>
+        <span><%= notification.created_at.strftime("%d %b %Y %H:%M") %></span>
+        <% unless notification.read? %>
+          <%= link_to "Mark as read", read_notification_path(notification), data: { turbo_method: :patch } %>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No notifications.</p>
+<% end %>
