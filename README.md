@@ -1,6 +1,7 @@
 # Orbit — Companion Application
 
-The companion Rails application for the book [**Modular Rails: Architecture for the Long Game**](https://github.com/Davidslv/ruby-architecture) by David Silva.
+> **This is the companion application for [Modular Rails: Architecture for the Long Game](https://davidslv.uk/modular-rails/) by David Silva.**
+> Available now on [Amazon UK](https://www.amazon.co.uk/dp/B0GZL7D53M) · [Amazon US](https://www.amazon.com/dp/B0GZL7D53M)
 
 Orbit is a simplified SaaS platform that manages subscriptions, generates invoices, and sends notifications to customers. It starts as a standard Rails monolith and gets progressively modularised through the book, demonstrating how to decompose a Rails application into well-isolated engines.
 
@@ -82,14 +83,14 @@ bin/rails test
 
 ## The Book
 
-This application is the practical companion to *Modular Rails: Architecture for the Long Game*. Each chapter references specific files and patterns in this codebase. The book covers:
+This application is the practical companion to [**Modular Rails: Architecture for the Long Game**](https://davidslv.uk/modular-rails/). Each chapter references specific files and patterns in this codebase. The book covers:
 
 - **Part I** -- Clean Architecture, trade-off analysis, and XP principles applied to Rails
 - **Part II** -- How Rails Engines work internally and how to build them
 - **Part III** -- Extracting engines, managing dependencies, data ownership, testing, team workflows
 - **Part IV** -- When engines are wrong, microservices, and evolving your architecture
 
-Book repository: [github.com/Davidslv/ruby-architecture](https://github.com/Davidslv/ruby-architecture)
+[Buy on Amazon UK](https://www.amazon.co.uk/dp/B0GZL7D53M) · [Buy on Amazon US](https://www.amazon.com/dp/B0GZL7D53M) · [Learn more](https://davidslv.uk/modular-rails/)
 
 ## License
 
