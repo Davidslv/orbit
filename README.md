@@ -92,6 +92,15 @@ This application is the practical companion to [**Modular Rails: Architecture fo
 
 [Buy on Amazon UK](https://www.amazon.co.uk/dp/B0GZL7D53M) · [Buy on Amazon US](https://www.amazon.com/dp/B0GZL7D53M) · [Learn more](https://davidslv.uk/modular-rails/)
 
+## What's next
+
+Orbit is the **starting point** — three engines, deliberately small enough to read in an afternoon. When you're ready for more:
+
+- **[seams](https://github.com/Davidslv/seams)** — a CLI framework that ships the patterns Orbit demonstrates (and several more — auth, accounts, teams, admin) as opinionated `bin/rails generate seams:<engine>` generators. The book's later chapters reference seams directly.
+- **[seams-example](https://github.com/Davidslv/seams-example)** — a reference Rails 8 host wiring all six canonical seams engines end-to-end. The "what does this look like in production shape" answer.
+
+Reading order: book → Orbit (this repo) → seams (the framework) → seams-example (the framework composed).
+
 ## License
 
 The code in this repository is licensed under the [MIT License](LICENSE).
